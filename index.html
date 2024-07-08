@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexgen</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="Icon-nexcent.png" type="image/x-icon">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .ctaSection{
+            background-size: 100% 100%;
+        }
+        .companiesList{
+            animation: 8s  infinite  linear   moveImage;
+       
+        }
+
+        @keyframes moveImage {
+            0%{
+                top: 0;
+
+            }
+            100%{
+                top: -100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+     <!--Navbar-->
+ <nav class="Grey-blue,
+ #FFFFFF bg-[#F5F7FA]">
+    <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+        <a href="/" class="cursor-pointer py-7 pr-7 mt-5" >
+            <!----logo--->
+            <img
+            
+            src="Logo-Nexcent.svg"
+            width="107.54px"
+            height="16.71px"
+            gap="5.57px">
+            
+        </a>
+        <ul class="flex space-x-6 ">
+            <!--nav items-->
+            <li class="text-black text-sm font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 relative group hidden lg:block top-2.5">
+                <a class="w-[46px] h-[24px]" href="#">Home</a>
+                <!-- <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block  transition-all duration-200 "></div> -->
+            </li>
+            <li class="text-black text-sm  font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 relative group hidden lg:block  top-2.5">
+                <a class="w-[46px] h-[24px]" href="#">Service</a>
+                <!-- <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block  transition-all duration-200 "></div> -->
+            </li>
+            <li class="text-black text-sm  font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 relative group hidden lg:block top-2.5">
+                <a class="w-[46px] h-[24px]" href="#">Feature</a>
+                <!-- <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div> -->
+            </li>
+            <li class="text-black text-sm  font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 relative group hidden lg:block top-2.5">
+                <a class="w-[46px] h-[24px]" href="#">Product</a>
+                <!-- <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div> -->
+            </li>
+            <li class="text-black text-sm  font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 relative group hidden lg:block top-2.5">
+                <a class="w-[46px] h-[24px]" href="#">Testimonial</a>
+                <!-- <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div> -->
+            </li>
+           
+            <li class="text-black text-sm   font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 relative group hidden lg:block top-2.5">
+                <a class="w-[46px] h-[24px]" href="#">FAQ</a>
+                <!-- <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div> -->
+            </li>
+            
+        </ul>
+        <div class="flex space-x-1 cursor-pointer " ></div>
+         <!-- <img  src="india-flag.svg " width="28px " height="20px" alt="" class="hidden lg:block"> -->
+         <button width="37px" height="20px" class="text-[#4CAF4F] font-mullish py-3 px-5  text-sm text-center ">Login</button>
+         <button class="py=6 px-8 h-11 text-white font-mullish  bg-[#4CAF4F] text-sm rounded-md border transition-all duration-200 hover:bg-green-400  ">Sign Up
+            <!-- <svg
+            viewBox="0 0 24 24"
+            focusable="false"
+            class="w-[14px] h-[14px] ml-3"
+          >
+            <path
+              fill="currentColor"
+              d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+            ></path>
+          </svg> -->
+         </button>
+         <button id="theme-toggle" class="bg-black dark:bg-gray-800 text-white dark:text-white px-4 py-2 rounded">
+            Toggle Theme
+          </button>
+         
+    </div>
+ </nav>
+
+ <!--Hero-section-->
+ <section class="relative bg-[#F5F7FA] pt-24 pr-36 pb-24 pl-36">
+    <div class="flex  flex-col lg:flex-row w-10/12 max-w-[1080px] justify-between items-center mx-auto ">
+        <!--leftpart-->
+        <div class="space-y-8">
+         <h1 class="text-[#4D4D4D] font-mullish font-bold text-[44.55px] leading-[1.2] pb-5">Lessons and insights</h1>
+         <span class="text-[#4CAF4F] font-Inter font-semibold text-[44.55px] leading-5">from 8 years</span>
+         <!-- <div class="  w-6 h-1 bg-greenLight"></div> -->
+         <p class="text-[#717171] font-mullish font-normal text-[16px] leading-6">Where to grow your business as a photographer: site or social media?</p>
+         <button class="text-white bg-[#4CAF4F] font-mullish  font-bold  py-[14px] px-[18px]">Register</button>
+        </div>
+        <!--right paert-->
+        <div class="bg-[#F5F7FA]">
+         <img src="Illustration-nexcent.jpg" width="391px" height="407px" alt="" 
+         class=" max-w-[680px] bg-[#F5F7FA]">
+        </div>
+    </div>
+    <!--shape part-->
+    <!-- <div class="absolute left-0 right-0 w-full" >
+        <img src="hero-shape.svg" alt=""
+        class="w-full">
+    </div> -->
+
+ </section>
+   <!-- client -->
+    <section class="  pt-0, pr-26, pb-0, pl-26 ">
+        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 space-y-4 ">
+            <h2 class="text-center font-semibold text-[36px] leading-11 text-[#4D4D4D]">Our Clients</h2>
+            <p class="font-normal text-center text-[16px] leading-6 text-[#717171]">We have been working with some Fortune 500+ clients</p>
+            <div class=" flex w-[1152px] h-[98px] justify-between">
+                <img src="L.png" alt="" width="48px" height="48px">
+                <img src="L-1.png" alt="" width="48px" height="48px">
+                <img src="L-2.png" alt="" width="48px" height="48px">
+                <img src="L-3.png" alt="" width="48px" height="48px">
+                <img src="L-4.png" alt="" width="48px" height="48px">
+                <img src="L-5.png" alt="" width="48px" height="48px"> 
+                <img src="L-6.png" alt="" width="48px" height="48px">
+            </div>
+</div>
+    </section>
+    <!-- community -->
+     <section  class="  pt-0, pr-26, pb-0, pl-26 ">
+        <div class=" w-11/12 max-w-[1080px] mx-auto pt-4 space-y-4 ">
+            <h2 class=" w-[542px] h-[88px] text-[36px] text-center font-bold leading-11 pt-5 justify-center m-auto text-[#4D4D4D]">Manage your entire community in a single system</h2>
+            <p class="font-normal text-center text-[16px] leading-6 text-[#717171] pt-8 pb-10">Who is Nextcent suitable for?</p>
+            </div>
+            <!-- commiunity variety -->
+             <div class=" flex w-[1440px] h-[280px]  justify-between pt-0 pr-36 pb-0 pl-36">
+                <!-- box1 -->
+                <div class="w-[299px] h-[260px] gap-2 rounded-lg bg-[#FFFFFF] shadow-[#ABBED133] pt-6 pr-8 pb-6 pl-8 ">
+                    <div class="w-[267px] h-[144px]  gap-4 flex flex-col items-center" >
+                        <img src="community-1.png" alt="" width="65px" height="56px ">
+                        <h3 class="w-[231x] h-[72px] font-bold text-[28px] leading-9 text-center text-[#4D4D4D] ">Membership Organisations</h3>
+                        <div class="w-[251px] h-[60px] gap-2">
+                          <p class="w-[251px] h-[60px] font-normal leading-5 text-[14px] text-center text-[#717171]">Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                    </div>
+                </div>
+                   <!-- box-2 -->
+                   <div class="w-[299px] h-[260px] gap-2 rounded-lg bg-[#FFFFFF] shadow-[#ABBED133] pt-6 pr-8 pb-6 pl-8  ">
+                    <div class="w-[267px] h-[144px]  gap-4 flex flex-col items-center" >
+                        <img src="community-2.png" alt="" width="65px" height="56px ">
+                        <h3 class="w-[231x] h-[72px] font-bold text-[28px] leading-9 text-center text-[#4D4D4D] ">National Associations</h3>
+                        <div class="w-[251px] h-[60px] gap-2">
+                          <p class="w-[251px] h-[60px] font-normal leading-5 text-[14px] text-center text-[#717171]">Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- box3 -->
+                <div class="w-[299px] h-[260px] gap-2 rounded-lg bg-[#FFFFFF] shadow-[#ABBED133] pt-6 pr-8 pb-6 pl-8 ">
+                    <div class="w-[267px] h-[144px]  gap-4 flex flex-col items-center" >
+                        <img src="community-3.png" alt="" width="65px" height="56px ">
+                        <h3 class="w-[231x] h-[72px] font-bold text-[28px] leading-9 text-center text-[#4D4D4D] ">Clubs And <br> Groups</h3>
+                        <div class="w-[251px] h-[60px] gap-2">
+                          <p class="w-[251px] h-[60px] font-normal leading-5 text-[14px] text-center text-[#717171]">Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                    </div>
+                </div>  
+             </div>
+     </section>
+    <!-- main-body -->
+     <section class="w-[full] h-[2242.4] top-[1441px] left-[1px] gap-12 pt-14">
+        <!-- unlock -->
+         <div class="w-[1440] h-[433px]">
+            <div class="w-[1440] h-[433px]  flex relative justify-between pt-0 pr-36 pb-0 pl-0">
+                <!-- frame35 -->
+                 <div class="w-[442px] h-[433px]">
+                    <!-- mobilelogin -->
+                     <div class="w[441.53px] h-[328.99px] top-[52px]">
+                        <!-- character -->
+                         <img src="character-1.png" alt="" class=" absolute w-[79px] h-[230.69px] top-[83.82px] left-[196.04px]" >
+                          <!-- screen -->
+                         <img src="Screen.png" alt="" class="absolute w-[122.79px] h-[227.03px] top-[5.75px] left-[267.41px]">
+                         <!-- character2 -->
+                          <img src="character-2.png" alt="" class="absolute w-[102.06px] h-[283.95px] top-[19.56px] left-[353.59px]">
+                          <!-- shadow -->
+                           <img src="Shadow.png" alt="" class="absolute w-[342.44px] h-[19.99px] top-[298px] left-[150.55px]">
+                    </div> 
+                 </div>
+                 <!-- data  frame-6-->
+                  <div class="w-[661px] h-[268px] gap-8">
+                    <!-- frame-5 -->
+                   <div class="w-[601px] h-[184px] gap-4">
+                    <h2 class="w-[601px] h-[88px] leading-11 font-semibold text-[#4D4D4D] text-[36px] ">The unseen of spending three years at Pixelgrade</h2>
+                    <p class="w-[601px] h-[88px] font-normal text-[14px] leading-5 text-[#717171] pt-7 " >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                    <button class="  relative w-[151px] h-[52px] pt-3.5 pr-8 pb-3.5 pl-8  gap-2.5 text-white font-mullish  top-12 bg-[#4CAF4F] text-sm rounded-md border transition-all duration-200 hover:bg-green-400  ">Learn More</button>
+                   </div>
+                  </div>
+
+            </div>
+         </div>
+         <!-- Achievement -->
+          <div class=" relative w-[1440] h-[288px] bg-[#F5F7FA] flex justify-between pt-16 pr-36 pb-16 pl-36">
+            <!-- sectionheading -->
+             <div class="w-[540px] h-[120px] gap-2">
+                <div class="w-[408px] h-[88px] gap-2">
+                    <h2 class=" w-[408px] h-[88px ]font-semibold text-[36px] leading-11 text-[#4D4D4D]">Helping a local</h2>
+                    <span class=" w-[408px] h-[88px]font-semibold text-[36px] leading-11 text-[#4CAF4F]">business relevant itself</span>
+                    <p class="w-[540px] h-[24px] font-normal  text-[16px] leading-6 text-[#18191F]">We reached here with our hard work and dedication</p>
+                </div>
+             </div>
+             <!-- counts -->
+              <div class="w-[540px] h-[160px] gap-10">
+                <!-- row1 -->
+                 <div class="w-[540px] h-[60px] flex gap-8">
+                    <!-- 2 -->
+                     <div class="w-[255px] h-[60px] flex gap-4">
+                        <img src="Icon-row1.png" alt="" width="48px" height="48px">
+                        <div class="w-[191px] h-[60px]">
+                            <h3 class="w-[191px] h-[36px] text-[28px] leading-9 font-bold text-[#4D4D4D]">2,245,341</h3>
+                            <p class="w-[191px] h-[24px] font-normal text-[16px]  leading-6 text-[#717171]" >Members</p>
+                        </div>
+                     </div>
+                     <!-- 1 -->
+                     <div class="w-[255px] h-[60px] flex  gap-4">
+                        <img src="Icon row-2.png" alt="" width="48px" height="48px">
+                        <div class="w-[191px] h-[60px]">
+                            <h3 class="w-[191px] h-[36px] text-[28px] leading-9 font-bold text-[#4D4D4D]">46,328</h3>
+                            <p class="w-[191px] h-[24px] font-normal text-[16px]  leading-6 text-[#717171]" >clubs</p>
+                        </div>
+                     </div> 
+                 </div>
+                 <!-- row-2 -->
+                 <div class="w-[540px] h-[60px] flex gap-8 pt-8">
+                    <!-- 3 -->
+                     <div class="w-[255px] h-[60px] flex gap-4">
+                        <img src="Icon-row3.png" alt="" width="48px" height="48px">
+                        <div class="w-[191px] h-[60px]">
+                            <h3 class="w-[191px] h-[36px] text-[28px] leading-9 font-bold text-[#4D4D4D]">828,867</h3>
+                            <p class="w-[191px] h-[24px] font-normal text-[16px]  leading-6 text-[#717171]" >Event Bookings</p>
+                        </div>
+                     </div>
+                     <!-- 4 -->
+                     <div class="w-[255px] h-[60px] flex  gap-4">
+                        <img src="Icon -row4.png" alt="" width="48px" height="48px">
+                        <div class="w-[191px] h-[60px]">
+                            <h3 class="w-[191px] h-[36px] text-[28px] leading-9 font-bold text-[#4D4D4D]">1,926,436</h3>
+                            <p class="w-[191px] h-[24px] font-normal text-[16px]  leading-6 text-[#717171]" >Payments</p>
+                        </div>
+                     </div> 
+                 </div>
+              </div>
+            
+          </div>
+
+          <!-- calender -->
+           <div class="w-[1440px] h-[433.4px] pt-8">
+            <div class="w-[1440px] h-[433.4px] flex justify-between pt-0 pr-36 pb-0 pl-36">
+                <img src="pana.png" alt="" width="441.53px" height="433.4px">
+                <!-- frame6 -->
+                <div class="w-[661px] h-[308px] gap-8">
+                    <div class="w-[601px] h-[224px] gap-4">
+                        <h2 class=" w-[601px] h-[88px] font-semibold leading-11 text-[36px] text-[#4D4D4D]">How to design your site footer like we did</h2>
+                        <p class="w-[601px] h-[120px] font-normal text-[14px] text-[#717171] leading-5 pt-7">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                    </div>
+                    <button class="  relative w-[151px] h-[52px] pt-3.5 pr-8 pb-3.5 pl-8  gap-2.5 text-white font-mullish  top-12 bg-[#4CAF4F] text-sm rounded-md border transition-all duration-200 hover:bg-green-400  ">Learn More</button>
+
+                </div>
+            </div>
+           </div>
+           <!-- customer0 -->
+            <div class="w-[full] h-[390px] pt-8 pr-36 pb-8 pl-36 gap-20  mt-24  bg-[#F5F7FA] flex">
+              <img src="image 9.png" alt="" width="326px" height="326px" class="rounded-lg shadow-[#ABBED166]">
+              <!-- frame11 -->
+              <div class="w-[748px] h-[324px] gap-8">
+                <!-- content -->
+                 <div class="w-[748px] h-[244px] gap-4">
+                    <p class="w-[748px] h-[168px] font-medium text-[16px] leading-6 text-[#717171]">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+                    <!-- frame7 -->
+                     <div class="w-[748px] h-[60px] gap-2">
+                        <h4 class="w-[748px] h-[28px] font-semibold text-[20px] leading-7 text-[#4CAF4F] pt-4">Tim Smith</h4>
+                        <p class="w-[748px] h-[24px] font-normal text-[16px] leading-6 text-[#89939E] pt-6">British Dragon Boat Racing Association</p>
+                     </div>
+                 </div>
+                 <!-- frame14 -->
+                  <div class="w-[748px] h-[48px] gap-8 flex">
+                    <!-- frame10 -->
+                     <div class="w-[493px] h-[48px] gap-10 flex mt-6">
+                        <img src="Logo-1.png" alt="" width="48px" height="48px" class="rounded-lg bg-[#F5F7FA]">
+                        <img src="Logo-2.png" alt="" width="48px" height="48px" class="rounded-lg bg-[#F5F7FA]">
+                        <img src="Logo-3.png" alt="" width="48px" height="48px" class="rounded-lg bg-[#F5F7FA]">
+                        <img src="Logo-4.png" alt="" width="48px" height="48px" class="rounded-lg bg-[#F5F7FA]">
+                        <img src="Logo -5.png" alt="" width="48px" height="48px" class="rounded-lg bg-[#F5F7FA]">
+                        <img src="Logo-6.png" alt="" width="48px" height="48px" class="rounded-lg bg-[#F5F7FA]">
+                     </div>
+                     <!-- frame13 -->
+                      <div class="w-[233px] h-[44px] p-2 gap-2 flex mt-6">
+                        <h4 class="w-[188px] h-[28px] text-[#4CAF4F] text-[20px] font-semibold leading-7">Meet all customers</h4>
+                        <!-- arrow -->
+                         <div class="w-[24px] h-[24px] rotate-180">
+                            <img src="Right.png" alt="" width="14.59px" height="8px" class="top-2 left-[19.59px] border-2 rotate-180  items-center">
+                         </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <!-- community-updates -->
+             <div class="w-[1440px] h-[506px] gap-4 flex  flex-col items-center mt-8">
+                <!-- community -->
+                 <div class="w-[1110px] h-[124px] flex flex-col items-center gap-2">
+                    <h2 class="w-[full] h-[44px] text-[36px] font-semibold text-[#4D4D4D]  text-center leading-11">Caring is the new marketing</h2>
+                    <p class="w-[628px] h-[72px] font-normal text-[16px] leading-6 text-center text-[#717171] mt-2">The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+                 </div>
+                 <!-- frame15 -->
+                  <div class="w-[1440px] h-[366px] relative justify-between flex pt-0 pr-36 pb-0 pl-36 mt-6">
+                    <!-- 1 -->
+                     <div class="w-[368px] h-[366px] ">
+                        <img src="image 18.png" alt="" width="368px" height="286px" class="rounded-lg  absolute">
+                        <!-- content -->
+                         <div class="w-[317px] h-[176px] rounded-lg p-4 gap-4 left-[25px] top-[225px] bg-[#F5F7FA] shadow-[#ABBED166] relative">
+                            <h4 class="w-[285px] h-[84px] font-semibold text-[20px] leading-7 text-center text-[#717171]">Creating Streamlined Safeguarding Processes with OneRen</h4>
+                            <!-- frame -->
+                             <div class="w-[285px] h-[44px] p-2 gap-2 flex justify-center items-center">
+                                <h4 class="w-[188px] h-[28px] text-[#4CAF4F] text-[20px] font-semibold leading-7">Read More</h4>
+                        <!-- arrow -->
+                         <div class="w-[24px] h-[24px] flex items-center justify-center rotate-180 ">
+                            <img src="Right.png" alt="" width="14.59px" height="8px" class="top-2 left-[19.59px] border-2 rotate-180  items-center">
+                         </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- 2 -->
+                     <div class="w-[368px] h-[366px] ">
+                        <img src="image 19.png" alt="" width="368px" height="286px" class="rounded-lg  absolute">
+                        <!-- content -->
+                         <div class="w-[317px] h-[176px] rounded-lg p-4 gap-4 left-[25px] top-[225px] bg-[#F5F7FA] shadow-[#ABBED166] relative">
+                            <h4 class="w-[285px] h-[84px] font-semibold text-[20px] leading-7 text-center text-[#717171]">What are your safeguarding responsibilities and how can you manage them?</h4>
+                            <!-- frame -->
+                             <div class="w-[285px] h-[44px] p-2 gap-2 flex justify-center items-center">
+                                <h4 class="w-[188px] h-[28px] text-[#4CAF4F] text-[20px] font-semibold leading-7">Read More</h4>
+                        <!-- arrow -->
+                         <div class="w-[24px] h-[24px] flex items-center justify-center rotate-180">
+                            <img src="Right.png" alt="" width="14.59px" height="8px" class="top-2 left-[19.59px] border-2 rotate-180  items-center">
+                         </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- 3 -->
+                     <div class="w-[368px] h-[366px] ">
+                        <img src="image 20.png" alt="" width="368px" height="286px" class="rounded-lg  absolute">
+                        <!-- content -->
+                         <div class="w-[317px] h-[176px] rounded-lg p-4 gap-4 left-[25px] top-[225px] bg-[#F5F7FA] shadow-[#ABBED166] relative">
+                            <h4 class="w-[285px] h-[84px] font-semibold text-[20px] leading-7 text-center text-[#717171]">Revamping the Membership Model with Triathlon Australia</h4>
+                            <!-- frame -->
+                             <div class="w-[285px] h-[44px] p-2 gap-2 flex justify-center items-center">
+                                <h4 class="w-[188px] h-[28px] text-[#4CAF4F] text-[20px] font-semibold leading-7">Read More</h4>
+                        <!-- arrow -->
+                         <div class="w-[24px] h-[24px] flex items-center justify-center rotate-180">
+                            <img src="Right.png" alt="" width="14.59px" height="8px" class="top-2 left-[19.59px] border-2 rotate-180  items-center">
+                         </div>
+                             </div>
+                         </div>
+                     </div>
+                  </div>
+             </div>
+
+     </section>
+     <!-- footer -->
+      <footer class="w-[1440] h-[628px] top-[3748px] mt-40 ">
+     <!-- frame16 -->
+      <div class="w-[full] h-[300px] pt-8 pr-0 pb-8 pl-0 gap-8 bg-[#F5F7FA] flex flex-col items-center">
+        <h1 class="w-[887px] h-[152px] font-semibold text-[64px] text-center leading-19 text-[#263238]">Pellentesque suscipit fringilla libero eu.</h1>
+        
+        <button class="  relative w-[151px] h-[52px] pt-3.5 pr-8 pb-3.5 pl-8  gap-2.5 text-white font-mullish  top-8  bg-[#4CAF4F] text-sm rounded-md border transition-all duration-200 hover:bg-green-400  ">Get a Demo</button>
+        <div class="w-[24px] h-[24px] rotate-180">
+            <img src="Right.png" alt="" width="14.59px" height="8px" class="top-2 left-[19.59px] border-2 rotate-180  items-center">
+         </div>
+      </div>
+      <!-- footer-black -->
+       <div class="w-[full] h-[328px] pt-16 pr-40 pb-16 pl-40 gap-32 bg-[#263238] relative flex ">
+        <!-- company-info -->
+         <div class="w-[350px] h-[190px] gap-10 flex flex-col">
+            <!-- company-logo -->
+             <div class="w-[191px] h-[30px] flex gap-3">
+                <img src="Logo-Nexcent.svg" alt="" width="143.27px" height="129.67px " class="">
+                <img src="Nexcent.png" alt="" class="relative right-[80px]">
+             </div>
+             <!-- copyright -->
+              <div class="w-[350px] h-[48px] gap-2">
+                <p class="w-[350px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">Copyright © 2020 Nexcent ltd.</p>
+                <p class="w-[350px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">All rights reserved</p>
+              </div>
+              <!-- sociallinks -->
+               <div class="w-[176px] h-[32px] gap-4 flex"  >
+                <img src="Social Icons-1.png" alt="">
+                <img src="Social Icons-2.png" alt="">
+                <img src="Social Icons-3.png" alt="">
+                <img src="Social Icons-4.png" alt="">
+               </div>
+         </div>
+         <!-- links -->
+          <div class="w-[635px] h-[200px] gap-7 flex">
+            <!-- col1 -->
+             <div class="w-[160px] h-[200px] gap-6">
+                <h4 class="w-[160px] h-[28px] text-[20px] font-semibold text-[#FFFFFF] leading-7">Company</h4>
+                <!-- list-items -->
+                 <div class="w-[160px] h-[148px] gap-3 mt-4">
+                    <p class="w-[160px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">About us</p>
+                    <p class="w-[160px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">Blog</p>
+                    <p class="w-[160px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">Contact us</p>
+                    <p class="w-[160px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">Pricing</p>
+                    <p class="w-[160px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">Testimonial</p>
+                 </div>
+             </div>
+             <!-- col-2 -->
+             <div class="w-[160px] h-[200px] gap-6">
+                <h4 class="w-[160px] h-[28px] text-[20px] font-semibold text-[#FFFFFF] leading-7">Support</h4>
+                <!-- list-items -->
+                 <div class="w-[160px] h-[148px] gap-3 mt-4">
+                    <p class="w-[160px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">Help center</p>
+                    <p class="w-[160px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">Term of service</p>
+                    <p class="w-[160px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">Legal</p>
+                    <p class="w-[160px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">Privacy policy</p>
+                    <p class="w-[160px] h-[20px] font-normal text-[14px] leading-5 text-[#F5F7FA]">Status</p>
+                 </div>
+             </div>
+             <!-- col-3 -->
+             <div class="w-[160px] h-[200px] gap-6">
+                <h4 class="w-[160px] h-[28px] text-[20px] font-semibold text-[#FFFFFF] leading-7">Stay up to date</h4>
+                <!-- email -->
+                 <div class="w-[255px] h-[40px] mt-4 right-0.5 relative">
+                    <img src="Email Input Field.png" alt="">
+                 </div>
+             </div>
+          </div>
+       </div>
+      </footer>
+
+      <script src="index.js"></script>
+</body>
+</html>
+
+
